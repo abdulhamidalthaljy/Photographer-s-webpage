@@ -1,0 +1,12 @@
+<div  class="container-fluid bg-black " style="padding-top: 100px;" >
+  <h1 class="text-center text-light">ARCHITECTURAL</h1>
+
+  <div>
+    <lightgallery class="row row-cols-1 row-cols-lg-5 row-cols-md-4 row-cols-sm-2 "  [settings]="settings" >
+      <a *ngFor="let item of images"  class="gallery-item" href="{{item.src}}">
+        <img class="img-responsive" src="{{ item.src }}" />
+      </a>
+    </lightgallery>
+  </div>
+ 
+  </div>
