@@ -1,17 +1,17 @@
-
 import { Component, VERSION, ViewEncapsulation } from "@angular/core";
 import lgZoom from 'lightgallery/plugins/zoom';
 import { BeforeSlideDetail } from 'lightgallery/lg-events';
-import { interimage } from "../interimage";
-import { imagesPeople } from "../image";
+import { interimage } from "../../interimage";
+import { imagesArchit } from "../../image";
 @Component({
-  selector: 'app-people-details',
-  templateUrl: './people-details.component.html',
-  styleUrls: ['./people-details.component.css'],
+  selector: 'app-architectural-details',
+  templateUrl: './architectural-details.component.html',
+  styleUrls: ['./architectural-details.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class PeopleDetailsComponent {
-  images: Array<interimage> = imagesPeople;
+export class ArchitecturalDetailsComponent {
+  images: Array<interimage> = imagesArchit;
+
 
   name = "Angular " + VERSION.major;
   settings = {

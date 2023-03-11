@@ -1,17 +1,17 @@
+
 import { Component, VERSION, ViewEncapsulation } from "@angular/core";
 import lgZoom from 'lightgallery/plugins/zoom';
 import { BeforeSlideDetail } from 'lightgallery/lg-events';
-import { interimage } from "../interimage";
-import { imagesArchit } from "../image";
+import { interimage } from "../../interimage";
+import { imagesFood } from "../../image";
 @Component({
-  selector: 'app-architectural-details',
-  templateUrl: './architectural-details.component.html',
-  styleUrls: ['./architectural-details.component.css'],
+  selector: 'app-street-food-details',
+  templateUrl: './street-food-details.component.html',
+  styleUrls: ['./street-food-details.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class ArchitecturalDetailsComponent {
-  images: Array<interimage> = imagesArchit;
-
+export class StreetFoodDetailsComponent {
+  images: Array<interimage> = imagesFood;
 
   name = "Angular " + VERSION.major;
   settings = {

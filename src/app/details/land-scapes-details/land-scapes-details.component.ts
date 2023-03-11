@@ -1,16 +1,17 @@
+
 import { Component, VERSION, ViewEncapsulation } from "@angular/core";
 import lgZoom from 'lightgallery/plugins/zoom';
 import { BeforeSlideDetail } from 'lightgallery/lg-events';
-import { interimage } from "../interimage";
-import { imagesCities } from "../image";
+import { interimage } from "../../interimage";
+import { imagesLand } from "../../image";
 @Component({
-  selector: 'app-cities-details',
-  templateUrl: './cities-details.component.html',
-  styleUrls: ['./cities-details.component.css'],
+  selector: 'app-land-scapes-details',
+  templateUrl: './land-scapes-details.component.html',
+  styleUrls: ['./land-scapes-details.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class CitiesDetailsComponent {
-  images: Array<interimage> = imagesCities;
+export class LandScapesDetailsComponent {
+  images: Array<interimage> = imagesLand;
 
   name = "Angular " + VERSION.major;
   settings = {
@@ -21,5 +22,4 @@ export class CitiesDetailsComponent {
     const { index, prevIndex } = detail;
     console.log(index, prevIndex);
   };
-  
 }

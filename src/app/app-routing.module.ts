@@ -3,12 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { CitiesDetailsComponent } from './cities-details/cities-details.component';
-import { ArchitecturalDetailsComponent } from './architectural-details/architectural-details.component';
-import { LandScapesDetailsComponent } from './land-scapes-details/land-scapes-details.component';
-import { WildLifeDetailsComponent } from './wild-life-details/wild-life-details.component';
-import { PeopleDetailsComponent } from './people-details/people-details.component';
-import { StreetFoodDetailsComponent } from './street-food-details/street-food-details.component';
+import { CitiesDetailsComponent } from './details/cities-details/cities-details.component';
+import { ArchitecturalDetailsComponent } from './details/architectural-details/architectural-details.component';
+import { LandScapesDetailsComponent } from './details/land-scapes-details/land-scapes-details.component';
+import { WildLifeDetailsComponent } from './details/wild-life-details/wild-life-details.component';
+import { PeopleDetailsComponent } from './details/people-details/people-details.component';
+import { StreetFoodDetailsComponent } from './details/street-food-details/street-food-details.component';
 import { CartComponent } from './cart/cart.component';
 
 
